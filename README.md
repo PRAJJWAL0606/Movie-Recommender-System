@@ -1,16 +1,28 @@
-# Movie-Recommender-System
-A movie recommender system that implements different recommending techniques for a particular user.
+# Movie-Recommendation-system
 
-**POPULARITY BASED RECOMMENDER:**
-It works on the principle that movies that are more popular will have a higher probability of being liked by the average audience.
-But it suffers from limitations that  it gives the same recommendation to everyone, regardless of the user's personal taste. If a person who loves romantic movies (and hates action) were to look at our Top 10 Chart, he/she wouldn't probably like most of the movies.
+![Python](https://img.shields.io/badge/Python-3.7-blue)
+![Notebook](https://img.shields.io/badge/Notebook-Jupyter-orange)
+![Framework](https://img.shields.io/badge/Framework-Flask-red)
+![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-orange)
+![Cloud](https://img.shields.io/badge/API-TMDB-yellow)
+
+## Overview
+In this Project, we are going to build a movie recommendation system using three way, Popularity based recommendation system, Content based recommendation system, Collaborative filtering based recommendation system.
+The dataset we are going to use is the Movie dataset from Kaggle which contains about 4803 rows and 24 features. and in this dataset we have movies only upto 2017, So I also collected 2018, 2019, 2020 movies data from wikipedia.
+
+## WebApp
+* If you want to view the deployed model, click on the following link: http://movierecommendation-env.eba-2tdbgmt3.ap-south-1.elasticbeanstalk.com/
+
+* If you are searching for Code, Algorithms, Which similarity metrics I used and much more Please Open "Movie Recommendation System.ipynb" file.
+
+<p align="center">
+  <img src="git-image.jpg" alt="Italian Trulli" class="center">
+</p>
 
 
-**CONTENT BASED RECOMMENDER: **
-To personalise our recommendations more, this engine computes similarity between movies based on certain metrics and suggests movies that are most similar to a particular movie that a user liked. Since we will be using movie metadata (or content) to build this engine, this also known as Content Based Filtering.
-
-
-**COLLABORATIVE FILTERING BASED RECOMMENDER:**
-The recommendations are done based on the user’s behavior. History of the user plays an important role. For example, if the user ‘A’ likes ‘Coldplay’, ‘The Linkin Park’ and ‘Britney Spears’ while the user ‘B’ likes ‘Coldplay’, ‘The Linkin Park’ and ‘Taylor Swift’ then they have similar interests. So, there is a huge probability that the user ‘A’ would like ‘Taylor Swift’ and the user ‘B’ would like ‘Britney Spears’. This is the way collaborative filtering is done.
-
-
+### Source of the dataset
+1. [The IMDB Movies Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
+4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
+5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
